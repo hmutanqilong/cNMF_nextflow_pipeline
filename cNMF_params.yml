@@ -1,0 +1,17 @@
+# cNMF pipeline parameters
+
+# --- input & output file ---- #
+analysisDir: "/project/xuanyao/qilong/Project/Core_Gene_Programs/Johnathan/cNMF/K562/pbmc_slurm_test"
+count_fp: "/project/xuanyao/qilong/Project/Core_Gene_Programs/Johnathan/cNMF/K562/nextflow_pipeline/data/count_adata.h5ad"
+name: "pbmc_slurm"
+
+# --- parallel --- #
+total_workers: 54
+
+# --- K value --- #
+k_values: "10,15,20,25,30"
+n_iter: 200
+num_genes: 2000
+
+
+

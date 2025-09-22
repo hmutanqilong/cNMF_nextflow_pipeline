@@ -1,0 +1,12 @@
+# Nextflow logs
+.nextflow*
+.nextflow/
+
+# Nextflow work directory
+work/
+
+# log
+log_sbatch
+
+# analysis result
+analysis/
